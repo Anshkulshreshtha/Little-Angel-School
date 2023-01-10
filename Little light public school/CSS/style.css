@@ -1,0 +1,433 @@
+body{
+  font-size: 14px;
+  line-height: 1.5384615385;
+  color: #333333;
+  background-color: white;
+}
+
+hr{
+  background-color: white;
+  border: none;
+  margin: 2px;
+}
+
+
+nav{
+  font-family: serif;
+  background-color: #25316D;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#cal img {
+  vertical-align: middle;
+  height: 30px;
+}
+.imgtext{
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: rgba(16, 59, 122, 0.9);
+  padding: 70px 20px 70px 20px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.menu{
+  font-family: 'Rajdhani', sans-serif;
+}
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  -webkit-transition: all 1s ease-in-out;
+  transition: .5s ease-in-out;
+}
+.gallery:hover .overlay {
+  height: 100%;
+}
+.ullist{
+  list-style: none;
+  position: absolute;
+  margin: 0px;
+  top: 0px;
+}
+
+.down p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.news{
+  position: relative;
+  background-color: #000;
+  height: 39px;
+  line-height: 35px;
+  font-weight: bold;
+  color: #FFF;
+  padding: 3px;
+  text-align: center;
+}
+
+.newsalert{
+  height:39px;
+  margin-top:5px;
+  width: 100%;
+}
+
+.navlinks a:hover{
+  background-color: #BE1321;
+  border-color: #BE1321;
+  color: #fff;
+}
+
+.logo{
+  height:200px;
+  width: 100%;
+}
+
+.notice{
+  background-color:green;
+  text-align: center;
+  border:none;
+  color:white;
+  margin-top:10px;
+  height:360px;
+  margin-left:5px;
+  margin-right:25px;
+  width: 98%;
+}
+.noticeboard{
+  margin-top: 50px;
+}
+.centered-heading{
+  font-weight: 700;
+  font-size: 24px;
+  color: #D0781A;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: inline-block;
+  border-bottom: 3px solid #D0781A;
+}
+
+.Title {
+  text-align: center;
+  background-color: #000;
+  top: -20px;
+  left: 28%;
+  padding: 8px;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0 4px #000;
+}
+.about-section{
+  background: url(../images/about-bg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  padding: 60px 0;
+  clear: both;
+}
+.top-logo{
+  border-top: 1px solid #103B7A;
+  background-color:#6666ff;
+}
+.white-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px 0 40px 40px;
+  min-height: 570px;
+  margin-top: 10px;
+}
+
+.download{
+  position: relative;
+}
+
+.about-content {
+  padding-right: 40px;
+}
+.content{
+  position: absolute;
+  width: 100%;
+  top: 19%;
+}
+.downone{
+  position: relative;
+  background-color: #FF731D;
+}
+
+.downtwo{
+  position: relative;
+  background-color: green;
+}
+
+.downthree{
+  position: relative;
+  background-color: #5F9DF7;
+}
+
+.downfour{
+  position: relative;
+  background-color: #B73E3E;
+}
+
+.down{
+  width: 100%;
+  float: left;
+  margin: 11px;
+  padding: 10px;
+}
+
+.down img{
+  width: 61px;
+}
+.team-box {
+  background: rgba(255, 255, 255, 0.898) none repeat scroll 0% 0%;
+  position: relative;
+  padding-bottom: 74px;
+  margin-top: 10px;
+}
+.title {
+  background: #d0781a;
+  color: #f9c937;
+  font-weight: 700;
+  padding: 30px;
+  margin-bottom: 11px;
+}
+
+.title h3{
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.inner{
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+}
+.text a {
+  color: #423F3F;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+.upcoming-events .time span {
+  display: block;
+  font-size: 10px;
+  line-height: 10px;
+}
+.upcoming-events .post {
+  position: relative;
+  overflow: hidden;
+  padding: 0px 9px 5px;
+  margin: 0px 0px 5px;
+}
+.upcoming-events .time {
+  width: 41px;
+  height: 46px;
+  float: left;
+  margin: 0px 21px 0px 0px;
+  font: 700 18px/18px "Roboto Condensed",Arial,sans-serif;
+}
+.upcoming-events .time a {
+  height: 46px;
+  padding: 12px 4px;
+  text-align: center;
+  display: block;
+  color: #FFF;
+  background: #be1321 url(../images/bg-date.png) no-repeat scroll 0% 0%;
+  text-decoration: none;
+}
+.upcoming-events h3 {
+  margin: 0px 0px 7px;
+  line-height: 21px;
+  font-weight: 600;
+}
+.read a {
+  border: 2px solid #103B7A;
+  background: transparent none repeat scroll 0% 0%;
+  padding: 10px 50px;
+  text-decoration: none;
+  font-weight: 900;
+}
+.read.two a {
+  border: 2px solid #be1321;
+  color: #be1321;
+}
+.read.two {
+  position: absolute;
+  bottom: 35px;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
+.centered-title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 3px solid #D0781A;
+}
+.more{
+  display: block;
+  font-weight: 700;
+  font-size: 11px;
+  font-style: italic;
+  color: #BE1321;
+  margin-top: 10px;
+}
+.centered-title h3 {
+  font-weight: 700;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 24px;
+  color: #D0781A;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.gallery {
+  width: 49.333%;
+  height: auto;
+  background: #fff;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  padding: 1px;
+}
+
+.text-left {
+  text-align: left;
+}
+.calendar{
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #D0781A;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+#cal {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  webkit-box-sizing: border-box;
+  padding: 1px;
+  margin-bottom: 20px;
+}
+
+#cal .cal_head {
+  color: #FFF;
+  padding left: 10px;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2px 2px 0px 0px;
+  border: 1px solid #fff;
+  padding: 11px;
+  background: #d0781a;
+}
+#calprev {
+  position: absolute;
+  left: 10px;
+  cursor: pointer;
+}
+#currentmonth {
+  padding: 0;
+  text-align: center;
+  font-size: 1.07692em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#currentyear {
+  padding: 0;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+}
+#calnext {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+.caltable {
+  border-collapse: separate;
+  border-width: 0px 0px 1px 1px;
+  font-size: 20px;
+  width: 100%;
+  height: auto;
+  background: #f8f8f8;
+}
+.caltable th {
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  background: #fff;
+}
+.caltable td, th {
+  width: 14.28%;
+  text-align: center;
+  vertical-align: middle;
+  background: url(../img/cells.png) repeat scroll 0% 0% #079c21;
+  color: #fff;
+  font-size: 14px;
+  height: 52px;
+  border: 1px solid #D8DBE1;
+  margin: 3px;
+}
+.site-footer {
+  background: #d0781a;
+  color: #fff;
+  padding: 30px 0;
+}
+.widget-title-outer {
+  position: relative;
+}
+.widget-title-outer h3 {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+}
+.footer-credit {
+  background: #be1321;
+  padding: 10px 0 2px;
+  color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+  clear: both;
+}
+.icons{
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+}
+.icons li a .fa {
+  display: inline;
+  font-size: 2em;
+}
+.icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
